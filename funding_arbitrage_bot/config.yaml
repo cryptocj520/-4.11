@@ -5,13 +5,13 @@
 # 用于连接Backpack和Hyperliquid交易所的API密钥
 exchanges:
   backpack:
-    api_key: "A7q65bRnOeVTGWk1ICn7uipGNGasPqWJ5g/PVUfKSWo="   # Backpack交易所的API密钥
-    api_secret: "hCJFa8/f+1XF+imz1Zx27X03GK9jjlBypdSYIssgknc="  # Backpack交易所的API密钥对应的密钥
+    api_key: "/资金费率套利机器人配置文件="   # Backpack交易所的API密钥
+    api_secret: "资金费率套利机器人配置文件/f+1XF+="  # Backpack交易所的API密钥对应的密钥
   hyperliquid:
     # 注意：Hyperliquid使用以太坊钱包地址和私钥进行认证
-    api_key: "0xc6d9824F33F9167832dD7B7cFF8f18E085e0d7C8"  # 以太坊钱包地址(API钱包)，用于签名认证
-    api_secret: "0x26e7b2f4ddad07386e5f29760d165de0b725012a78bf0fea44c97ed98cd48e0e"  # 以太坊钱包私钥
-    public_address: "0x5B36d70a44e03D72F001d206b06001C84fBD5eFA"  # 公共ETH钱包地址，用于查询账户信息和持仓
+    api_key: "0xc6d95资金费率套利机器人配置文件0d7C8"  # 以太坊钱包地址(API钱包)，用于签名认证
+    api_secret: "资金费率套利机器人配置文件"  # 以太坊钱包私钥
+    public_address: "0x5B资金费率套利机器人配置文件d5eFA"  # 公共ETH钱包地址，用于查询账户信息和持仓
 
 # 套利策略配置
 # 控制套利策略的运行方式、触发条件和交易参数
