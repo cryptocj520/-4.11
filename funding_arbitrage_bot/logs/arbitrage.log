@@ -1,0 +1,181 @@
+2025-04-10 16:41:52,039 - funding_arbitrage - INFO - 日志系统已初始化，级别: INFO, 文件: logs/arbitrage.log, 轮转: 10.0MB/5个备份
+2025-04-10 16:41:52,039 - funding_arbitrage - INFO - 成功解码API密钥
+2025-04-10 16:41:52,075 - funding_arbitrage - INFO - 已配置Hyperliquid钱包地址: 0xc6d9824F...
+2025-04-10 16:41:52,075 - funding_arbitrage - INFO - 已加载Hyperliquid公共钱包地址: 0x5B36d70a...
+2025-04-10 16:41:52,966 - funding_arbitrage - INFO - Hyperliquid SDK客户端初始化完成
+2025-04-10 16:41:52,966 - funding_arbitrage - INFO - 最大持仓数量限制: 5个不同币种
+2025-04-10 16:41:52,968 - funding_arbitrage - INFO - 从文件加载资金费率符号记录: {'FARTCOIN': -1, 'HYPE': 1, 'IP': -1, 'LINK': -1, 'ONDO': -1}
+2025-04-10 16:41:52,968 - funding_arbitrage - INFO - 套利引擎初始化完成，套利阈值: 0.0005
+2025-04-10 16:41:52,968 - funding_arbitrage - INFO - 交易对: []
+2025-04-10 16:41:52,968 - funding_arbitrage - INFO - 价差参数 - 最小: 0.05%, 最大: 1.6%
+2025-04-10 16:41:52,968 - funding_arbitrage - INFO - 开仓条件类型: any, 平仓条件类型: funding_only
+2025-04-10 16:41:52,968 - funding_arbitrage - INFO - 未配置订单通知
+2025-04-10 16:41:52,968 - funding_arbitrage - INFO - 正在启动套利引擎...
+2025-04-10 16:41:52,968 - funding_arbitrage - INFO - 加载持仓记录和资金费率记录...
+2025-04-10 16:41:52,968 - funding_arbitrage - INFO - 资金费率记录和开仓时间记录加载完成
+2025-04-10 16:41:52,969 - funding_arbitrage - INFO - 启动时检查当前持仓状态...
+2025-04-10 16:41:52,969 - funding_arbitrage - INFO - 获取持仓信息，使用端点: /api/v1/position
+2025-04-10 16:41:53,346 - funding_arbitrage - INFO - Backpack持仓: BERA_USDC_PERP, 方向: SELL, 数量: 9.0
+2025-04-10 16:41:53,346 - funding_arbitrage - INFO - Backpack持仓: JUP_USDC_PERP, 方向: BUY, 数量: 130.0
+2025-04-10 16:41:53,346 - funding_arbitrage - INFO - Backpack持仓: WIF_USDC_PERP, 方向: BUY, 数量: 130.0
+2025-04-10 16:41:53,346 - funding_arbitrage - INFO - Backpack持仓: TRUMP_USDC_PERP, 方向: SELL, 数量: 6.0
+2025-04-10 16:41:53,346 - funding_arbitrage - INFO - 使用instruction方式获取到4个Backpack持仓
+2025-04-10 16:41:53,346 - funding_arbitrage - INFO - 使用钱包地址查询Hyperliquid持仓: 0x5B36d70a...
+2025-04-10 16:41:53,878 - funding_arbitrage - INFO - Hyperliquid持仓: JUP, 方向: SELL, 数量: 130.0
+2025-04-10 16:41:53,878 - funding_arbitrage - INFO - Hyperliquid持仓: WIF, 方向: SELL, 数量: 130.0
+2025-04-10 16:41:53,878 - funding_arbitrage - INFO - Hyperliquid持仓: TRUMP, 方向: BUY, 数量: 6.0
+2025-04-10 16:41:53,878 - funding_arbitrage - INFO - Hyperliquid持仓: BERA, 方向: BUY, 数量: 9.0
+2025-04-10 16:41:53,878 - funding_arbitrage - INFO - 通过REST API获取到4个Hyperliquid持仓
+2025-04-10 16:41:53,878 - funding_arbitrage - INFO - 当前已持有4个不同币种，配置限制为5个
+2025-04-10 16:41:53,878 - funding_arbitrage - INFO - 当前持仓币种: BERA, JUP, TRUMP, WIF
+2025-04-10 16:41:53,879 - funding_arbitrage - WARNING - 注意: 当前持仓数量(4)接近最大限制(5)，只能再开1个新仓位
+2025-04-10 16:41:53,882 - funding_arbitrage - INFO - 订单消息: 注意: 当前持仓数量(4)接近最大限制(5)，只能再开1个新仓位
+2025-04-10 16:41:53,882 - funding_arbitrage - INFO - 获取持仓信息，使用端点: /api/v1/position
+2025-04-10 16:41:53,899 - funding_arbitrage - INFO - 尝试批量获取Hyperliquid资金费率...
+2025-04-10 16:41:53,899 - funding_arbitrage - INFO - 尝试批量获取所有币种的资金费率
+2025-04-10 16:41:54,005 - funding_arbitrage - INFO - Backpack持仓: BERA_USDC_PERP, 方向: SELL, 数量: 9.0
+2025-04-10 16:41:54,006 - funding_arbitrage - INFO - Backpack持仓: JUP_USDC_PERP, 方向: BUY, 数量: 130.0
+2025-04-10 16:41:54,006 - funding_arbitrage - INFO - Backpack持仓: WIF_USDC_PERP, 方向: BUY, 数量: 130.0
+2025-04-10 16:41:54,006 - funding_arbitrage - INFO - Backpack持仓: TRUMP_USDC_PERP, 方向: SELL, 数量: 6.0
+2025-04-10 16:41:54,006 - funding_arbitrage - INFO - 使用instruction方式获取到4个Backpack持仓
+2025-04-10 16:41:54,006 - funding_arbitrage - INFO - 使用钱包地址查询Hyperliquid持仓: 0x5B36d70a...
+2025-04-10 16:41:54,249 - funding_arbitrage - INFO - 成功批量获取 188 个币种的资金费率
+2025-04-10 16:41:54,250 - funding_arbitrage - INFO - 批量获取Hyperliquid资金费率成功，共188个
+2025-04-10 16:41:54,250 - funding_arbitrage - INFO - 成功批量更新 25/25 个Hyperliquid币种的资金费率
+2025-04-10 16:41:54,250 - funding_arbitrage - INFO - 尝试批量获取Backpack资金费率...
+2025-04-10 16:41:54,250 - funding_arbitrage - INFO - 准备获取 25 个交易对的资金费率
+2025-04-10 16:41:54,250 - funding_arbitrage - INFO - 正在并行请求 25 个交易对的资金费率
+2025-04-10 16:41:54,312 - funding_arbitrage - INFO - Backpack WebSocket已连接
+2025-04-10 16:41:54,403 - funding_arbitrage - INFO - Hyperliquid WebSocket已连接
+2025-04-10 16:41:54,520 - funding_arbitrage - INFO - Hyperliquid持仓: JUP, 方向: SELL, 数量: 130.0
+2025-04-10 16:41:54,520 - funding_arbitrage - INFO - Hyperliquid持仓: WIF, 方向: SELL, 数量: 130.0
+2025-04-10 16:41:54,520 - funding_arbitrage - INFO - Hyperliquid持仓: TRUMP, 方向: BUY, 数量: 6.0
+2025-04-10 16:41:54,520 - funding_arbitrage - INFO - Hyperliquid持仓: BERA, 方向: BUY, 数量: 9.0
+2025-04-10 16:41:54,520 - funding_arbitrage - INFO - 通过REST API获取到4个Hyperliquid持仓
+2025-04-10 16:41:54,520 - funding_arbitrage - INFO - 开始更新持仓方向信息，市场数据包含25个交易对
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO - Backpack持仓数量: 4, Hyperliquid持仓数量: 4
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO - Backpack持仓原始数据详情:
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO -   BERA_USDC_PERP: {'side': 'SELL', 'size': 9.0, 'entry_price': 3.6005, 'mark_price': 3.86747999, 'pnl': -0.032397}
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO -   JUP_USDC_PERP: {'side': 'BUY', 'size': 130.0, 'entry_price': 0.367, 'mark_price': 0.36813327, 'pnl': 0.014186}
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO -   WIF_USDC_PERP: {'side': 'BUY', 'size': 130.0, 'entry_price': 0.3187, 'mark_price': 0.37210464, 'pnl': -0.000434}
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO -   TRUMP_USDC_PERP: {'side': 'SELL', 'size': 6.0, 'entry_price': 7.569, 'mark_price': 7.96885531, 'pnl': -0.019037}
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO - Hyperliquid持仓原始数据详情:
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO -   JUP: {'side': 'SELL', 'size': 130.0, 'entry_price': 0.36645, 'unrealized_pnl': -0.2379}
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO -   WIF: {'side': 'SELL', 'size': 130.0, 'entry_price': 0.31856, 'unrealized_pnl': -7.0668}
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO -   TRUMP: {'side': 'BUY', 'size': 6.0, 'entry_price': 7.5683, 'unrealized_pnl': 2.4198}
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO -   BERA: {'side': 'BUY', 'size': 9.0, 'entry_price': 3.6021, 'unrealized_pnl': 2.3976}
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO - API返回的实际持仓币种: ['BERA', 'JUP', 'TRUMP', 'WIF']
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO - BP符号映射表: {'BTC_USDC_PERP': 'BTC', 'ETH_USDC_PERP': 'ETH', 'SOL_USDC_PERP': 'SOL', 'AVAX_USDC_PERP': 'AVAX', 'AAVE_USDC_PERP': 'AAVE', 'ADA_USDC_PERP': 'ADA', 'ARB_USDC_PERP': 'ARB', 'BERA_USDC_PERP': 'BERA', 'BNB_USDC_PERP': 'BNB', 'DOGE_USDC_PERP': 'DOGE', 'DOT_USDC_PERP': 'DOT', 'ENA_USDC_PERP': 'ENA', 'FARTCOIN_USDC_PERP': 'FARTCOIN', 'HYPE_USDC_PERP': 'HYPE', 'IP_USDC_PERP': 'IP', 'JUP_USDC_PERP': 'JUP', 'KAITO_USDC_PERP': 'KAITO', 'LINK_USDC_PERP': 'LINK', 'LTC_USDC_PERP': 'LTC', 'ONDO_USDC_PERP': 'ONDO', 'SUI_USDC_PERP': 'SUI', 'S_USDC_PERP': 'S', 'TRUMP_USDC_PERP': 'TRUMP', 'WIF_USDC_PERP': 'WIF', 'XRP_USDC_PERP': 'XRP'}
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO - BP符号'BERA_USDC_PERP'在映射表中找到匹配: BERA
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO - BP持仓 BERA_USDC_PERP (解析为BERA) 使用字段 size=9.0
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO - BP持仓 BERA_USDC_PERP 从side字段获取方向: SELL
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO - 找到BERA的Backpack持仓，最终方向: SELL
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO - BP符号'JUP_USDC_PERP'在映射表中找到匹配: JUP
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO - BP持仓 JUP_USDC_PERP (解析为JUP) 使用字段 size=130.0
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO - BP持仓 JUP_USDC_PERP 从side字段获取方向: BUY
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO - 找到JUP的Backpack持仓，最终方向: BUY
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO - BP符号'WIF_USDC_PERP'在映射表中找到匹配: WIF
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO - BP持仓 WIF_USDC_PERP (解析为WIF) 使用字段 size=130.0
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO - BP持仓 WIF_USDC_PERP 从side字段获取方向: BUY
+2025-04-10 16:41:54,521 - funding_arbitrage - INFO - 找到WIF的Backpack持仓，最终方向: BUY
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - BP符号'TRUMP_USDC_PERP'在映射表中找到匹配: TRUMP
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - BP持仓 TRUMP_USDC_PERP (解析为TRUMP) 使用字段 size=6.0
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - BP持仓 TRUMP_USDC_PERP 从side字段获取方向: SELL
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - 找到TRUMP的Backpack持仓，最终方向: SELL
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - HL持仓 JUP 使用字段 size=130.0
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - 找到JUP的Hyperliquid持仓，方向: SELL
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - HL持仓 WIF 使用字段 size=130.0
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - 找到WIF的Hyperliquid持仓，方向: SELL
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - HL持仓 TRUMP 使用字段 size=6.0
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - 找到TRUMP的Hyperliquid持仓，方向: BUY
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - HL持仓 BERA 使用字段 size=9.0
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - 找到BERA的Hyperliquid持仓，方向: BUY
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - BTC的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - BTC无开仓时间记录
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - ETH的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - ETH无开仓时间记录
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - SOL的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - SOL无开仓时间记录
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - AVAX的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - AVAX无开仓时间记录
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - AAVE的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - AAVE无开仓时间记录
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - ADA的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - ADA无开仓时间记录
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - ARB的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - ARB无开仓时间记录
+2025-04-10 16:41:54,522 - funding_arbitrage - INFO - BERA的持仓方向: BP=SELL, HL=BUY
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - BERA无开仓时间记录
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - 检测到BERA有持仓但无开仓时间记录，设置为当前时间: 1744274514.523034
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - BNB的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - BNB无开仓时间记录
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - DOGE的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - DOGE无开仓时间记录
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - DOT的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - DOT无开仓时间记录
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - ENA的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - ENA无开仓时间记录
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - FARTCOIN的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - FARTCOIN无开仓时间记录
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - HYPE的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - HYPE无开仓时间记录
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - IP的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - IP无开仓时间记录
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - JUP的持仓方向: BP=BUY, HL=SELL
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - JUP无开仓时间记录
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - 检测到JUP有持仓但无开仓时间记录，设置为当前时间: 1744274514.523632
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - KAITO的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - KAITO无开仓时间记录
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - LINK的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - LINK无开仓时间记录
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - LTC的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - LTC无开仓时间记录
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - ONDO的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - ONDO无开仓时间记录
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - SUI的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - SUI无开仓时间记录
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - S的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,523 - funding_arbitrage - INFO - S无开仓时间记录
+2025-04-10 16:41:54,524 - funding_arbitrage - INFO - TRUMP的持仓方向: BP=SELL, HL=BUY
+2025-04-10 16:41:54,524 - funding_arbitrage - INFO - TRUMP无开仓时间记录
+2025-04-10 16:41:54,524 - funding_arbitrage - INFO - 检测到TRUMP有持仓但无开仓时间记录，设置为当前时间: 1744274514.524072
+2025-04-10 16:41:54,524 - funding_arbitrage - INFO - WIF的持仓方向: BP=BUY, HL=SELL
+2025-04-10 16:41:54,524 - funding_arbitrage - INFO - WIF无开仓时间记录
+2025-04-10 16:41:54,524 - funding_arbitrage - INFO - 检测到WIF有持仓但无开仓时间记录，设置为当前时间: 1744274514.524161
+2025-04-10 16:41:54,524 - funding_arbitrage - INFO - XRP的持仓方向: BP=-, HL=-
+2025-04-10 16:41:54,524 - funding_arbitrage - INFO - XRP无开仓时间记录
+2025-04-10 16:41:54,524 - funding_arbitrage - INFO - 持仓方向信息更新完成
+2025-04-10 16:41:54,636 - funding_arbitrage - WARNING - 无法从API获取BTC的价格
+2025-04-10 16:41:54,691 - funding_arbitrage - INFO - 已向Backpack发送订阅请求，共 25 个交易对
+2025-04-10 16:41:55,667 - funding_arbitrage - WARNING - BTC数据无效，跳过检查
+2025-04-10 16:41:55,667 - funding_arbitrage - WARNING - ETH数据无效，跳过检查
+2025-04-10 16:41:55,667 - funding_arbitrage - WARNING - SOL数据无效，跳过检查
+2025-04-10 16:41:55,667 - funding_arbitrage - WARNING - AVAX数据无效，跳过检查
+2025-04-10 16:41:55,667 - funding_arbitrage - WARNING - AAVE数据无效，跳过检查
+2025-04-10 16:41:55,667 - funding_arbitrage - WARNING - ADA数据无效，跳过检查
+2025-04-10 16:41:55,668 - funding_arbitrage - WARNING - ARB数据无效，跳过检查
+2025-04-10 16:41:55,668 - funding_arbitrage - WARNING - BERA数据无效，跳过检查
+2025-04-10 16:41:55,668 - funding_arbitrage - WARNING - BNB数据无效，跳过检查
+2025-04-10 16:41:55,668 - funding_arbitrage - WARNING - DOGE数据无效，跳过检查
+2025-04-10 16:41:55,668 - funding_arbitrage - WARNING - DOT数据无效，跳过检查
+2025-04-10 16:41:55,668 - funding_arbitrage - WARNING - ENA数据无效，跳过检查
+2025-04-10 16:41:55,668 - funding_arbitrage - WARNING - FARTCOIN数据无效，跳过检查
+2025-04-10 16:41:55,668 - funding_arbitrage - WARNING - HYPE数据无效，跳过检查
+2025-04-10 16:41:55,668 - funding_arbitrage - WARNING - IP数据无效，跳过检查
+2025-04-10 16:41:55,668 - funding_arbitrage - WARNING - JUP数据无效，跳过检查
+2025-04-10 16:41:55,668 - funding_arbitrage - WARNING - KAITO数据无效，跳过检查
+2025-04-10 16:41:55,668 - funding_arbitrage - WARNING - LINK数据无效，跳过检查
+2025-04-10 16:41:55,668 - funding_arbitrage - WARNING - LTC数据无效，跳过检查
+2025-04-10 16:41:55,668 - funding_arbitrage - WARNING - ONDO数据无效，跳过检查
+2025-04-10 16:41:55,669 - funding_arbitrage - WARNING - SUI数据无效，跳过检查
+2025-04-10 16:41:55,669 - funding_arbitrage - WARNING - S数据无效，跳过检查
+2025-04-10 16:41:55,669 - funding_arbitrage - WARNING - TRUMP数据无效，跳过检查
+2025-04-10 16:41:55,669 - funding_arbitrage - WARNING - WIF数据无效，跳过检查
+2025-04-10 16:41:55,669 - funding_arbitrage - WARNING - XRP数据无效，跳过检查
+2025-04-10 16:41:59,282 - funding_arbitrage - ERROR - 获取 XRP_USDC_PERP 资金费率出错: Server disconnected without sending a response.
+2025-04-10 16:41:59,283 - funding_arbitrage - INFO - 成功获取 24/25 个交易对的资金费率
+2025-04-10 16:41:59,283 - funding_arbitrage - INFO - 批量获取Backpack资金费率成功，共24个
+2025-04-10 16:41:59,283 - funding_arbitrage - INFO - 成功批量更新 24/25 个Backpack币种的资金费率
+2025-04-10 16:41:59,283 - funding_arbitrage - INFO - 检测到部分币种缺失资金费率数据，将使用单个请求模式补充
+2025-04-10 16:41:59,718 - funding_arbitrage - INFO - 获取到XRP_USDC_PERP资金费率: -3.7705e-05
+2025-04-10 16:41:59,718 - funding_arbitrage - INFO - 资金费率更新完成
